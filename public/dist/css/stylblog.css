@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Secular+One&family=Yellowtail&display=swap');
+/*font-family: 'Lobster', cursive; font-family: 'Yellowtail', cursive;font-family: 'Secular One', sans-serif;*/
+
+body{
+    background-color: #e3ddd3;
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),url('../img/langit.jpg');
+    background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.507);
+}
+
+.card-profil{
+    background: #c2e2ff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.card-link h4,
+.card-body .fas,
+.card-footer .fab {color: #14abac}
+.card-footer .fab:hover {color: #f1bc19}
+.card p {color: #000000}
+.card-footer .fab {
+    font-size: 35px !important;
+    margin: 0 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+a.navbar-brand{
+ font-family: 'Lobster', cursive;
+ font-size:35px;
+ 
+}
+
+#runningtext{
+    width: 100%;
+    height: 35px;
+    padding-top: 7px;
+    position: relative;
+    font-size: 46px;
+    color: #ffffff;
+    font-family:'Lobster', cursive;
+}
